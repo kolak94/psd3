@@ -1,0 +1,136 @@
+.navbar-default {
+  background-color: #f9f8fb;
+  border-color: none;
+	padding-top: 57px;margin-bottom: 0;
+}
+
+.navbar {
+	border: none;
+	background-color: #f9f8fb;
+}
+nav {
+	background-color: #f9f8fb;
+}
+.navbar-default .navbar-nav>.active>a  {
+	border-top: 2px solid  #ff6033;
+	background-color: #f9f8fb;
+	
+}
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #ff6033;
+	background-color: none;
+}
+.navbar-default .navbar-nav li a:hover{
+	color: #ff6033;
+}
+.btn-default {
+	width: 200px;
+	height: 55px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-color: #ff6033;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 27px;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 31px;
+}
+
+.btn-default:hover {
+	background-color: #ff6033;
+	opacity: 0.7;
+}
+@media (max-width: 576px) {
+	body{
+		text-align: center;
+	}
+	.aboutUs h1 {
+		padding-top: 20px;
+		font-size: 50px;
+	}
+	.aboutUs p {
+		padding-left: 0;
+	}
+	.services ul{
+		padding-left: 0;
+		
+	}
+	
+	.services h1 {
+		font-size: 40px;
+		padding-top: 20px;
+		top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+		
+	}
+	.services .servicesContainer {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.newsletter .form-inline .btnSubscribe {
+		margin-left: 0;
+	}
+	.contact .post {
+	text-align: center;
+	padding-left: 0;
+	color: #fff; 
+	}
+	.contact h1 {
+		font-size: 70px;
+	}
+	
+}
+@media (min-width: 577px) and (max-width: 767.98px) {
+	body {
+		text-align: center;
+	}
+	.aboutUs h1 {
+		padding-top: 20px;
+		font-size: 50px;
+	}
+	.services h1 {
+		font-size: 40px;
+		padding-top: 30px;
+		width: 70%;
+		
+	}
+	.gallery .gallery-item {
+		max-width: 436px;
+		height: auto;
+	}
+	.services .servicesContainer {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+		.newsletter .form-inline .btnSubscribe {
+		margin-left: 0;
+	}
+	
+	
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.aboutUs h1 {
+		padding-top: 30px;
+		font-size: 50px;
+	}
+	.services h1 {
+		font-size: 40px;
+		width: 80%;
+	}
+}
+@media (min-width: 1200px) {
+	.hero {
+		background-position: right;
+		
+	}
+	.container {
+		width: 1170px;
+	}
+	.newsletter .form-inline .form-group input {
+	width: 570px;
+
+}
+}
